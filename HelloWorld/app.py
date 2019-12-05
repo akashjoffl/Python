@@ -1,3 +1,5 @@
+"""
+
 print("Akash Jeganath")
 print("o----")
 print(" ||||")
@@ -11,3 +13,56 @@ is_published = False
 
 print(price)
 print(is_published)
+
+
+print("______________________________________________________________")
+
+name = input("What is your first name? ")
+print("Hi " + name)
+
+print("______________________________________________________________")
+
+name = input("What is your first name? ")
+color = input("What is your favourite color? ")
+
+print(name + " likes " + color)
+
+print("______________________________________________________________")
+
+
+birth_year = input("Birth year: ")
+age = 2019 - int(birth_year)
+
+print(age)
+
+print("______________________________________________________________")
+
+birth_year = input("Birth year: ")
+age = 2019 - int(birth_year)
+
+print(type(age))
+
+print("______________________________________________________________")
+
+
+weight_pounds = input("Weight: ")
+
+weight_kg = int(weight_pounds) * 0.45
+
+print(weight_kg)
+
+print("______________________________________________________________")
+
+new = "I am Akash"
+print(new[0:-3])
+
+all = new[:]
+print(all)
+
+name = "Jennifer"
+print(name[1:-1])
+
+print("______________________________________________________________")
+
+"""
+
