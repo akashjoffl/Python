@@ -80,14 +80,14 @@ print(formattedMsg)
 """/// To define formatted strings, pre fix your string with 'f' and use curly braces '{} to dinamically insert 
 values """
 
-
+"""
 print("______________________________________________________________")
 
-""" ***String Methods****"""
+print("***String Methods****")
 
 course = "Python for Beginners"
 
-print(len(course)); """to count the number of characters in string"""
+print(len(course));  // to count the number of characters in string
 print(course)
 print(course.upper())
 print(course.lower())
@@ -97,5 +97,18 @@ print(course.replace("Beginners", "Absolute Beginners"))
 print("Python" in course)
 print("python" in course)
 
+"""
+print("______________________________________________________________")
 
+print("***Arithmetic Operations****")
+
+print(10 / 2)
+print(10 // 2)
+print(10 ** 2)
+
+x = 10
+x = x + 3
+x += 3
+x -= 2
+print(x)
 
