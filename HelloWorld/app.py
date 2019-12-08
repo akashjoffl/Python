@@ -113,16 +113,17 @@ x -= 2
 print(x)
 
 """
+"""
 print("______________________________________________________________")
 
 print("***Operator Precedence (BODMAS) ****")
 
 x = 10 + 3 * 2
 print(x)
-"""parenthesis
+"parenthesis
 exponentiation 2**3
 multiplication or division
-addition or subtraction"""
+addition or subtraction"
 
 y = (10 + 3) * 2 ** 2
 print(y)
@@ -130,7 +131,16 @@ print(y)
 z = (2 + 3) * 10 - 3
 print(z)
 
+print("______________________________________________________________")
+"""
+print("*** Math Functions ****")
 
+x = 6.9
+print(round(x))
+print(abs(-6.9))
 
+import math
 
+print(math.floor(6.9))
+print(math.ceil(6.9))
 
