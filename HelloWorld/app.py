@@ -52,7 +52,8 @@ weight_kg = int(weight_pounds) * 0.45
 print(weight_kg)
 
 print("______________________________________________________________")
-
+"""
+"""
 new = "I am Akash"
 print(new[0:-3])
 
@@ -63,6 +64,18 @@ name = "Jennifer"
 print(name[1:-1])
 
 print("______________________________________________________________")
-
 """
+""" ***Formatted String****"""
+
+first = "Akash"
+last = "Jeganath"
+
+message = first + " [" + last + "] is a coder"
+formattedMsg = f"{first} [{last}] is a coder"
+
+print(message)
+print(formattedMsg)
+
+"""/// To define formatted strings, pre fix your string with 'f' and use curly braces '{} to dinamically insert 
+values """
 
