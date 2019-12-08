@@ -66,7 +66,7 @@ print(name[1:-1])
 print("______________________________________________________________")
 """
 """ ***Formatted String****"""
-
+"""
 first = "Akash"
 last = "Jeganath"
 
@@ -75,7 +75,27 @@ formattedMsg = f"{first} [{last}] is a coder"
 
 print(message)
 print(formattedMsg)
+"""
 
 """/// To define formatted strings, pre fix your string with 'f' and use curly braces '{} to dinamically insert 
 values """
+
+
+print("______________________________________________________________")
+
+""" ***String Methods****"""
+
+course = "Python for Beginners"
+
+print(len(course)); """to count the number of characters in string"""
+print(course)
+print(course.upper())
+print(course.lower())
+print(course.find("o"))
+print(course.replace("Beginners", "Absolute Beginners"))
+
+print("Python" in course)
+print("python" in course)
+
+
 
