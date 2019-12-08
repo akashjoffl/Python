@@ -97,7 +97,7 @@ print(course.replace("Beginners", "Absolute Beginners"))
 print("Python" in course)
 print("python" in course)
 
-"""
+
 print("______________________________________________________________")
 
 print("***Arithmetic Operations****")
@@ -111,4 +111,26 @@ x = x + 3
 x += 3
 x -= 2
 print(x)
+
+"""
+print("______________________________________________________________")
+
+print("***Operator Precedence (BODMAS) ****")
+
+x = 10 + 3 * 2
+print(x)
+"""parenthesis
+exponentiation 2**3
+multiplication or division
+addition or subtraction"""
+
+y = (10 + 3) * 2 ** 2
+print(y)
+
+z = (2 + 3) * 10 - 3
+print(z)
+
+
+
+
 
