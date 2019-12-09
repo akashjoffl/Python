@@ -28,7 +28,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.project1">
+    <configuration name="Project: Weight Converter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HelloWorld" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Akash\PycharmProjects\HelloWorld\project1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HelloWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="project1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HelloWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,7 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,8 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.project1" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.ex1" />
+        <item itemvalue="Python.Project: Weight Converter" />
       </list>
     </recent_temporary>
   </component>
@@ -112,22 +134,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="722" y="78" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1575705800021" />
-    <state width="745" height="241" key="GridCell.Tab.0.bottom" timestamp="1575908366152">
+    <state x="496" y="43" key="#ex1" timestamp="1575908703552">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="241" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575908366152" />
-    <state width="745" height="241" key="GridCell.Tab.0.center" timestamp="1575908366151">
+    <state x="496" y="43" key="#ex1/0.0.1536.834@0.0.1536.834" timestamp="1575908703552" />
+    <state width="745" height="241" key="GridCell.Tab.0.bottom" timestamp="1575909883546">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="241" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1575908366151" />
-    <state width="745" height="241" key="GridCell.Tab.0.left" timestamp="1575908366150">
+    <state width="745" height="241" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575909883546" />
+    <state width="745" height="241" key="GridCell.Tab.0.center" timestamp="1575909883546">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="241" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1575908366150" />
-    <state width="745" height="241" key="GridCell.Tab.0.right" timestamp="1575908366152">
+    <state width="745" height="241" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1575909883546" />
+    <state width="745" height="241" key="GridCell.Tab.0.left" timestamp="1575909883546">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="745" height="241" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1575908366152" />
+    <state width="745" height="241" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1575909883546" />
+    <state width="745" height="241" key="GridCell.Tab.0.right" timestamp="1575909883546">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="745" height="241" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1575909883546" />
     <state width="745" height="264" key="GridCell.Tab.1.bottom" timestamp="1575780459746">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

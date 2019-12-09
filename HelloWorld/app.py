@@ -202,7 +202,7 @@ if temperature > 30:
     print("It's a hot day")
 else:
     print("It's not a hot day")
-"""
+
 "____Exercise____"
 
 name = "Akash Jeganath"
@@ -215,3 +215,10 @@ elif len(name) > 50:
 
 else:
     print("Name looks good!")
+
+"""
+print("______________________________________________________________")
+
+print("*** Project: Weight Converter ****")
+
+
