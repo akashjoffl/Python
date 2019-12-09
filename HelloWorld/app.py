@@ -177,7 +177,7 @@ else:
     down_payment = 0.2 * price
 
 print (f"Down Payment: ${down_payment}")
-"""
+
 
 print("______________________________________________________________")
 
@@ -190,4 +190,28 @@ if has_good_credit or has_high_income:
     print("Eligible for Loan")
 else:
     print("Sorry you are not Eligible for Loan")
-    
+
+
+print("______________________________________________________________")
+
+print("*** Comparison Operators ****")
+
+temperature = 29
+
+if temperature > 30:
+    print("It's a hot day")
+else:
+    print("It's not a hot day")
+"""
+"____Exercise____"
+
+name = "Akash Jeganath"
+
+if len(name) < 3:
+    print("Name must be at least 3 characters")
+
+elif len(name) > 50:
+    print("Name can be maximum of 50 characters")
+
+else:
+    print("Name looks good!")
