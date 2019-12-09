@@ -145,7 +145,7 @@ import math
 print(math.floor(6.9))
 print(math.ceil(6.9))
 
-"""
+
 
 print("______________________________________________________________")
 
@@ -165,7 +165,18 @@ else:
     print("It's a lovely day")
 
 print("Enjoy your day")
+"""
+"____Exercise____"
 
+price = 1000000
+has_good_credit = False
+
+if has_good_credit:
+    down_payment = 0.1 * price
+else:
+    down_payment = 0.2 * price
+
+print (f"Down Payment: ${down_payment}")
 
 
 
