@@ -165,7 +165,7 @@ else:
     print("It's a lovely day")
 
 print("Enjoy your day")
-"""
+
 "____Exercise____"
 
 price = 1000000
@@ -177,8 +177,17 @@ else:
     down_payment = 0.2 * price
 
 print (f"Down Payment: ${down_payment}")
+"""
 
+print("______________________________________________________________")
 
+print("*** Logical Operators ****")
 
+has_high_income = False
+has_good_credit = False
 
-
+if has_good_credit or has_high_income:
+    print("Eligible for Loan")
+else:
+    print("Sorry you are not Eligible for Loan")
+    
