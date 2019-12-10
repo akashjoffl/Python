@@ -227,7 +227,7 @@ while i <= 5:
     i = i + 1
 print("Done")
 
-"""
+
 print("______________________________________________________________")
 
 print("*** Guessing Game ****")
@@ -244,3 +244,46 @@ while guess_count < guess_limit:
         break
 else:
     print("Sorry, you failed!")
+ 
+"""
+
+print("______________________________________________________________")
+
+print("*** Car Game ****")
+
+command = ""
+while True:
+    command = input("> ").lower()
+    if command == "start":
+        print("Car started...")
+    elif command == "stop":
+        print("Car stopped")
+    elif command == "help":
+        print("""
+start - to start the car
+stop - to stop the car
+quit - to quit
+        """)
+
+    elif command == "quit":
+        break
+
+    else:
+        print("Sorry, I don't understand that")
+
+"""
+user_input = input("> ")
+
+if user_input.lower() == "help":
+    print("start - to start the car")
+    print("stop - to stop the car")
+    print("quit - to exit")
+
+    user_input2 = input("> ")
+    if user_input2 == "start":
+        print("Car started... Ready to go!")
+    elif user_input2 == "stop":
+        print("Car stopped.")
+    if user_input2 == "quit":
+        exit()
+"""
