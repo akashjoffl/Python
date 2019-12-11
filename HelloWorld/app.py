@@ -245,7 +245,7 @@ while guess_count < guess_limit:
 else:
     print("Sorry, you failed!")
  
-"""
+
 
 print("______________________________________________________________")
 
@@ -268,13 +268,23 @@ while True:
             started = False
             print("Car stopped")
     elif command == "help":
-        print("""
+        print
 start - to start the car
 stop - to stop the car
-quit - to quit
-        """)
+quit - to quit'
     elif command == "quit":
         break
     else:
         print("Sorry, I don't understand that")
 
+"""
+
+print("______________________________________________________________")
+
+print("*** For Loops ****")
+
+prices = [10, 20, 30, 9]
+total = 0
+for price in prices:
+    total += price
+print(f"Total: {total}")
