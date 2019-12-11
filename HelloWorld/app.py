@@ -252,38 +252,29 @@ print("______________________________________________________________")
 print("*** Car Game ****")
 
 command = ""
+started = False
 while True:
     command = input("> ").lower()
     if command == "start":
-        print("Car started...")
+        if started:
+            print("Car is already started!")
+        else:
+            started = True
+            print("Car started...")
     elif command == "stop":
-        print("Car stopped")
+        if not started:
+            print("Yob WTF Car is already stopped!")
+        else:
+            started = False
+            print("Car stopped")
     elif command == "help":
         print("""
 start - to start the car
 stop - to stop the car
 quit - to quit
         """)
-
     elif command == "quit":
         break
-
     else:
         print("Sorry, I don't understand that")
 
-"""
-user_input = input("> ")
-
-if user_input.lower() == "help":
-    print("start - to start the car")
-    print("stop - to stop the car")
-    print("quit - to exit")
-
-    user_input2 = input("> ")
-    if user_input2 == "start":
-        print("Car started... Ready to go!")
-    elif user_input2 == "stop":
-        print("Car stopped.")
-    if user_input2 == "quit":
-        exit()
-"""
