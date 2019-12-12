@@ -1,20 +1,13 @@
-print("______________________________________________________________")
+print("*** 2D Lists ****")
 
-print("*** Lists ****")
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
 
-names = ["Serah", "Akash", "John", "Teddy"]
-print(names[-2])
-names[0] = "Sarah"
-print(names)
+for row in matrix:
+    for item in row:
+        print(item)
 
-"""Write a program to find the largest number in a list"""
-
-numbers = [1, 15, 69, 56, 26, 48]
-max = numbers[0]
-for number in numbers:
-    if number > max:
-        max = number
-print(max)
-
-
-"""print(max(numbers))"""
+"""print(matrix[1][2])"""
