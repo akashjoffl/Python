@@ -309,3 +309,6 @@ names = ["Serah", "Akash", "John", "Teddy"]
 print(names[-2])
 names[0] = "Sarah"
 print(names)
+
+"""Write a program to find the largest number in a list"""
+    
