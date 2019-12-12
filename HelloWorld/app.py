@@ -289,7 +289,7 @@ for price in prices:
     total += price
 print(f"Total: {total}")
 
-"""
+
 
 print("______________________________________________________________")
 
@@ -298,3 +298,14 @@ print("*** Nested Loops ****")
 for x in range (4):
     for y in range (3):
         print(f"({x},{y})")
+        
+"""
+
+print("______________________________________________________________")
+
+print("*** Lists ****")
+
+names = ["Serah", "Akash", "John", "Teddy"]
+print(names[-2])
+names[0] = "Sarah"
+print(names)
