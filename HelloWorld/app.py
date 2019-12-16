@@ -6,8 +6,9 @@ matrix = [
     [7, 8, 9]
 ]
 
+"""matrix[0][1] = 20
+print(matrix[0][1])"""
+
 for row in matrix:
     for item in row:
         print(item)
-
-"""print(matrix[1][2])"""
