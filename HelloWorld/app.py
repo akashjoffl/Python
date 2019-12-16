@@ -1,8 +1,8 @@
-print("*** List Method ****")
+print("*** Exercise: List Method ****")
 
-numbers = [5, 2, 1, 7, 4]
-numbers2 = numbers.copy()
-numbers.append(10)
-
-print(numbers2)
-print(numbers)
+numbers = [3, 3, 5, 6, 7, 7, 8, 6, 9]
+uniques = []
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
