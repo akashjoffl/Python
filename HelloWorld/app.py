@@ -1,5 +1,9 @@
-print("*** Tuples ****")
+print("*** Unpacking ****")
 
-numbers = (1, 2, 3)
-"numbers[0] = 20"
-print(numbers[0])
+coordinates = (1, 2, 3)
+
+x, y, z = coordinates
+
+print(y)
+print(z)
+
