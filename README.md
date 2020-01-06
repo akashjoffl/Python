@@ -14,3 +14,4 @@ Add-Ons
 2. Ghostery
 3. PrivateX
 4. Facebook Container
+5. Tabby Cat
