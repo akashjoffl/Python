@@ -15,3 +15,5 @@ Add-Ons
 3. PrivateX
 4. Facebook Container
 5. Tabby Cat
+
+To get start with extensions -> https://webextensions.tech/
