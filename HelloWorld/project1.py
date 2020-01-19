@@ -1,5 +1,3 @@
-print("______________________________________________________________")
-
 print("*** Project: Weight Converter ****")
 
 weight = int(input("Weight: "))
