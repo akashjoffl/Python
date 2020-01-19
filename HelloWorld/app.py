@@ -1,12 +1,10 @@
-print("*** Emoji Convertor :) ****")
+print("****  Parameters  ****")
 
-message = input("> ")
-words = message.split(' ')
-emojis = {
-    ":)":"🙂",
-    ":(":"☹",
-}
-output = ""
-for word in words:
-        output += emojis.get(word,word) + " "
-print(output)
+def greet_user(first_name, last_name):
+    print(f'Hi {first_name} {last_name}!')
+    print('Welcome aboard')
+
+# Best practise to keep 2 line breaks after defining functions in Python
+print("Start")
+greet_user("Akash","Jeganath")
+print("Finish")
